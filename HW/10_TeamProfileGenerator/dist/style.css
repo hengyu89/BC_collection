@@ -1,0 +1,19 @@
+
+header {
+    background-color: rgb(241, 101, 101);
+    padding: 5em 0;
+    margin: 0 0 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    
+}
+
+.card-header {
+    background-color: #0d6efd;
+    color: white;
+}
