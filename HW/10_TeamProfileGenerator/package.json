@@ -1,28 +1,21 @@
 {
-  "name": "ucsd_hw10_team-profile-generator",
+  "name": "testheng",
   "version": "1.0.0",
-  "description": "This program is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so it will also write a unit test for every part of our code and ensure that it passes each test.",
+  "description": "",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "test": "test"
+    "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hengyu89/UCSD_HW10_Team-Profile-Generator.git"
+    "test": "jest",
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hengyu89/UCSD_HW10_Team-Profile-Generator/issues"
-  },
-  "homepage": "https://github.com/hengyu89/UCSD_HW10_Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4",
-    "jest": "^28.1.0"
+    "inquirer": "^8.2.5",
+    "jest": "^29.3.1",
+    "path": "^0.12.7"
   }
 }

@@ -1,5 +1,5 @@
-const Menu = require('./src/Menu');
+const Menu = require('./src/template');
 
 const writtenIn = new Menu();
 
-writtenIn.startWritten();
+writtenIn.StartMenu();

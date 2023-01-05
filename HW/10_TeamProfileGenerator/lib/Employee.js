@@ -1,31 +1,24 @@
 class Employee {
-    constructor(name, id, email) {
-        this.name = name;
+    constructor(id, name, email) {
         this.id = id;
+        this.name = name;
         this.email = email;
-        if (typeof this.id !== "number" || isNaN(this.id) || this.id <= 0) {
-            throw new Error("Expected parameter 'id' to be a positive number");
-          }
     }
 
     getName() {
-        console.log(`Aimed member's name: ${this.name}`);
-    }
-
-    getEmail() {
-        console.log(`Aimed member's email address: ${this.email}`);
+        console.log(`Employee's name: ${this.name}.`);
     }
 
     getId() {
-        console.log(`Aimed member's working ID: ${this.id}`);
+        console.log(`Employee's Id: ${this.id}`);
     }
 
-    getEmployeeRole() {
-        console.log(`\nAimed employee:\nName: ${this.name}. \nEmail Address: ${this.email} \nID: ${this.id}\n`);
+    getEmail() {
+        console.log(`Employee's email: ${this.email}`);
     }
 
+    getRole() {
+        console.log('Employee');
+    }
 }
-// const test = new Employee("Aloha", "Bloha", "Cloha");
-// test.getRole();
-// console.log(test.name);
 module.exports = Employee;
